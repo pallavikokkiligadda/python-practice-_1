@@ -1,0 +1,7 @@
+f=open("info.txt","w",encoding="utf-8")
+print("File Name:",f.name)
+print("File Mode:",f.mode)
+print("Is Closed:",f.closed)
+print("Encoding:",f.encoding)
+f.close()
+print("Is Closed after close():",f.closed)
